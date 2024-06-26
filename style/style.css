@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    min-width: 320px;
+    margin: 0 auto;
+    align-items: center;
+    background-image: url('../assets/wallpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main__header {
+    font-size: 25px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(0deg, rgba(195, 34, 34, 0.6839110644257703) 9%, rgba(68, 52, 193, 1) 49%, rgba(253, 45, 87, 1) 98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    padding: 20px 0;
+}
+
+#canvas {
+    box-shadow: 2em 3em 2em 3em rgba(100, 70, 120, 0.4);
+}
